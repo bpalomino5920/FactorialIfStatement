@@ -1,0 +1,8 @@
+from math import factorial
+
+your_int = int(input('Enter an integer >'))
+#your_fac = int(factorial(your_int))
+
+if your_int > 0:
+    your_fac = int(factorial(your_int))
+    print(your_fac)
